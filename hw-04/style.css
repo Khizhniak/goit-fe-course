@@ -1,102 +1,222 @@
-
-    /* font-family: 'Roboto', ;
+/* font-family: 'Roboto', ;
     font-family: 'Open Sans', ; */
 
 * {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 1110px;
-
+  width: 1110px;
 }
 
 .divMenu {
-    display: inline-block;
-    width: 1110px;
-    margin-top: 40px;
-    margin-bottom: 100px;
+  display: inline-block;
+  width: 1110px;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
-
-
 .menu {
-    text-align: right;
-    font-family: "Open Sans";
+  text-align: right;
+  font-family: "Open Sans";
 }
 
 .logo {
-    float: left;
-    font-weight: 100;
-    font-size: 30px;
-    color: gray;
-    font-family: 'Roboto';
-    text-transform: uppercase;
+  float: left;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#logo {
+  text-decoration: none;
+  font-size: 30px;
+  
+  color: gray;
+  font-family: "Roboto";
 }
 
 .logo::first-letter {
-    color: #1abc9c;
-    font-weight: 900;
+  color: #1abc9c;
+  font-weight: 900;
 }
-
 
 li {
-    display: inline-block;
-    text-transform: uppercase;
-    margin-top: 12px;
-    margin-left: 32px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-left: 32px;
 }
 
-a {
-    text-decoration: none;
-    font-weight: 700;
-    color: rgb(58, 55, 55);
+.menuItem {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(58, 55, 55);
 }
 
-a:hover {
-    color: #1abc9c;    
+.menuItem:hover {
+  color: #1abc9c;
 }
 
 /* =============================================== */
 
-
 .Featured {
-    margin-bottom: 92px;
-    display: block;
+  margin-bottom: 92px;
+  display: block;
 }
 
 .products {
-
-}
-
-.product {
-    display: inline-block;
+  font-size: 0;
+  margin-bottom: 100px;
 }
 
 .freaText {
-    font-size: 48px;
-    line-height: 32px;
-    color: #515151;
-    font-family: "Roboto";
-    font-weight: 900;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 48px;
+  line-height: 32px;
+  color: #515151;
+  font-family: "Roboto";
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .line {
-    margin-top: 32px;
-    width: 164px;
-    height: 7px;
-    background-color: #1abc9c;
+  margin-top: 32px;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
 }
+
+/* =============================================== */
 
 img {
-    display: block;
-    background-color: #e9f0fd;
-    height: 280px;
-    width: 255px;
+  display: block;
+  background-color: #e9f0fd;
+  height: 280px;
+  width: 255px;
 }
 
+.NAD {
+  display: block;
+  width: 255px;
+  height: 40px;
+}
 
+.name {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  text-align: left;
+  background-color: #323232;
+}
+
+.nameLink {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 900;
+  margin-left: 15px;
+}
+
+.price {
+  display: inline-block;
+  width: 55px;
+  height: 40px;
+  background-color: #8c8c8c;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 900;
+  text-align: center;
+  line-height: 37px;
+}
+
+.product:hover .price {
+  background-color: #7fd9c7;
+  transition: 0.3s;
+}
+
+.product:hover .name {
+  background-color: #1abc9c;
+  transition: 0.3s;
+}
+
+.product {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.product:nth-child(4n + 4) {
+  margin-right: 0px;
+}
+
+/* =================================== */
+
+.News {
+  display: block;
+  margin-bottom: 80px;
+}
+
+.newsItems {
+  margin-bottom: 300px;
+  font-size: 0;
+}
+
+.new:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.new {
+  display: inline-block;
+  margin-right: 30px;
+  width: 350px;
+}
+
+.imgNews {
+  width: 350px;
+  height: 260px;
+}
+
+img + h3 {
+  margin-top: 18px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+.miniLine {
+  margin: 15px 0px 30px 0px;
+  width: 140px;
+  height: 3px;
+  background-color: #4ec6ab;
+}
+
+div + p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  margin-bottom: 17px;
+}
+
+button {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-align: center;
+  width: 159px;
+  height: 51px;
+  border-radius: 3px;
+  filter: drop-shadow(1px 1.732px 2.5px rgba(0, 0, 0, 0.39));
+  background-color: #4ec6ab;
+}
