@@ -9,6 +9,7 @@
 
 body {
   width: 1110px;
+  background-size: cover;
 }
 
 .divMenu {
@@ -28,15 +29,12 @@ body {
   float: left;
   font-weight: 100;
   text-transform: uppercase;
-}
-
-#logo {
   text-decoration: none;
   font-size: 30px;
   color: gray;
   font-family: "Roboto";
-  font-weight: bold;
 }
+
 
 .logo::first-letter {
   color: #1abc9c;
@@ -155,6 +153,8 @@ img {
   width: auto;
   margin-right: 30px;
   margin-bottom: 30px;
+  width: 255px;
+  height: 320px;
 }
 
 .product:nth-child(4n + 4) {
@@ -183,10 +183,6 @@ img {
   width: 350px;
 }
 
-.imgNews {
-  width: 350px;
-  height: 260px;
-}
 
 img + h3 {
   padding-top: 18px;
@@ -214,9 +210,9 @@ button {
   font-family: "Open Sans";
   font-weight: 300;
   text-align: center;
-  width: 159px;
-  height: 51px;
-  border-radius: 3px;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
   filter: drop-shadow(1px 1.732px 2.5px rgba(0, 0, 0, 0.39));
   background-color: #4ec6ab;
 }
@@ -232,4 +228,9 @@ button {
   height: 7px;
   margin: 35px auto 0;
   background-color:#4ec6ab;
+}
+
+.load-more{
+  text-decoration: none;
+  color: #ffffff;
 }
