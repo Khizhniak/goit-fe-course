@@ -179,7 +179,7 @@ img {
 
 .new {
   display: inline-block;
-  margin-right: 30px;
+  padding-right: 30px;
   width: 350px;
 }
 
@@ -221,7 +221,7 @@ button {
   display: block;
 }
 
-.freaText::after {
+.feaText::after {
   content: "";
   display: block;
   width: 164px;
