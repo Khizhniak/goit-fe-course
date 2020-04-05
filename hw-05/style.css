@@ -56,7 +56,7 @@ header {
   font-weight: 900;
 }
 
-li {
+#menu-li {
   display: inline-block;
   text-transform: uppercase;
   padding-top: 12px;
@@ -69,7 +69,7 @@ li {
   color: rgb(58, 55, 55);
 }
 
-.menuItem:hover {
+.menu-item:hover{
   color: #1abc9c;
 }
 
@@ -148,7 +148,10 @@ li {
   cursor: pointer;
   z-index: 4;
   transform: translate(200%, -50%);
+}
 
+.button-left:hover, .button-right:hover{
+background-color: #1abc9c;
 }
 
 .but {
@@ -186,7 +189,6 @@ li {
 
 img {
   display: block;
-  background-color: #e9f0fd;
 }
 
 .NAD {
@@ -239,6 +241,7 @@ img {
 
 .products {
   display: inline-block;
+  position: relative;
   width: 1110px;
   height: auto;
   margin: 0px 0px 0px 405px;
@@ -248,8 +251,6 @@ img {
 
 .product {
   display: inline-block;
-  height: auto;
-  width: auto;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 255px;
@@ -261,9 +262,75 @@ img {
   margin-right: 0px;
 }
 
-.over-prod{
-  
+ .div-hidden-menu {
+  position: relative;
 }
 
+.hidden-menu {
+  display: none;
+  position: absolute;
+  width: 235px;
+  height: 260px;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
 
+.product:hover .hidden-menu {
+  display: block;
+}
 
+.hidden-ul {
+  list-style: none;
+  font-size: 0;
+  width: 166px;
+  margin: 79px auto 0;
+}
+
+.hidden-li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.m-img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.hidden-li:nth-child(3n){
+  margin-right: 0;
+}
+
+.m-img:hover {
+  background-color: #1abc9c;
+}
+
+.invin {
+  width: 166px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #323232;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img-invin {
+  margin: 10px 0 11px 12px;
+}
+
+.invin-p {
+  font-size: 14px;
+  position: absolute;
+  color: #fff;
+  top: 17px;
+  left: 54px;
+  font-family: "Roboto", sans-serif;
+}
+
+.invin:hover {
+  background-color: #1abc9c;
+}
