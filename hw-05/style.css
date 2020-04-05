@@ -56,7 +56,7 @@ header {
   font-weight: 900;
 }
 
-#menu-li {
+.menu-li {
   display: inline-block;
   text-transform: uppercase;
   padding-top: 12px;
@@ -333,4 +333,26 @@ img {
 
 .invin:hover {
   background-color: #1abc9c;
+}
+
+
+
+footer{
+  display: block;
+  width: 100%;
+  height: 88px;
+  background-color: #323232;
+  text-align: center;
+  color: #fff;
+}
+
+footer span{
+  display: block;
+  padding-top: 35px;
+}
+
+footer > span > a{
+  text-transform: none;
+  text-decoration: none;
+  color: #1abc9c;
 }
