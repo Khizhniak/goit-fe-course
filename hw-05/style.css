@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #e9f0fd;
   margin-top: 90px;
-  width: 1920px;
-  height: auto;
+  overflow-x: hidden;
 }
+
 
 header {
   display: inline-block;
@@ -83,8 +84,8 @@ header {
 .overlay {
   position: absolute;
   display: block;
-  width: 1920px;
-  height: 700px;
+  width: 100%;
+  height: 87.5%;
   top: 0;
   left: 0;
   right: 0;
