@@ -7,7 +7,6 @@ font-family: "Ubuntu", sans-serif;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    color: #626262;
 }
 
 body {
@@ -32,7 +31,7 @@ li:last-child{
 }
 
 a{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Press Start 2P', cursive;
     text-decoration: none;
     color: #626262;
     font-size: 14px;
@@ -93,5 +92,7 @@ h2 + p {
     font-family: "Playfair Display", serif;
     background-color: #ddddd7;
     border: 1px solid #626262;
+    border-radius: 6px;
+    cursor: pointer;
     font-size: 20px;
 }
